@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,regular,italic,600,600italic,700,700italic,800,800italic);
+* {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+body {
+    background-image: linear-gradient(140deg, #020344, #183885);
+    font-size: 55%;
+}
+
+.container {
+    background-image: linear-gradient(140deg, #2d6dc5,#020344);
+    background-color: #fff;
+    width: 52.5rem;
+    border-radius: 1rem;
+    margin: 3.5rem auto;
+}
+
+nav {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+.links {
+    font-size: .9rem;
+    
+}
+
+.links a {
+    padding-left: 2.5rem;
+}
+
+.links a:hover {
+    color: #e7af7a;
+}
+
+section {
+    display: flex;
+}
+
+.data {
+    align-self: center;
+    padding: 20px;
+}
+
+.data h1 {
+    font-size: 2rem;
+}
+
+.data p {
+    line-height: 1.5rem;
+}
+
+.data .botn {
+    padding-top: 2.5rem;
+}
+
+.data .btn {
+    background-image: linear-gradient(50deg, #03abf6,#1667d3);
+    font-size: .6rem;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    padding: .3rem .9rem;
+    border-radius: 5rem;
+}
+
+.data .btn:hover {
+    color: #e7af7a;
+}
